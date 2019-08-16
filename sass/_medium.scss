@@ -1,0 +1,17 @@
+/*  ------------- MAIN -------------  */
+main {
+
+    div.container1 div {
+        -ms-flex: 46%; // IE adds padding to the outside, not the inside, so the width specified needs to be altered accordingly
+        flex-basis: 50%;
+    }
+    
+    
+    div.container2 figure {
+        -ms-flex: 29.333%; // IE adds padding to the outside, not the inside, so the width specified needs to be altered accordingly
+        flex-basis: 33.333%;
+    }
+    
+} // end main
+
+
